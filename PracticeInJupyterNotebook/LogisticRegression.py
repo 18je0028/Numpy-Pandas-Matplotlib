@@ -245,8 +245,8 @@ iris = load_iris()
 # X = iris.data[ : , 3]
 # X = iris['data'][ : , 3]
 
-X2 = iris.data
-Y2 = (iris.target == 2).astype(int)
+# X2 = iris.data
+# Y2 = (iris.target == 2).astype(int)
 
 # Y = (iris.target == 2)
 
@@ -287,13 +287,13 @@ Y2 = (iris.target == 2).astype(int)
 
 # Train a logistic regression classifier
 
-from sklearn.linear_model import LogisticRegression
+# from sklearn.linear_model import LogisticRegression
 
 # clf = LogisticRegression()
-clf2 = LogisticRegression()
+# clf2 = LogisticRegression()
 
 # clf.fit(X.reshape((-1,1)), Y)
-clf2.fit(X2, Y2)
+# clf2.fit(X2, Y2)
 # print(clf.predict([[1.6]]))
 # [0]
 # print(clf.predict([[2.6]]))
