@@ -1,3 +1,4 @@
+# This was one of the best course in python
 # course = "Programming With Mosh"
 # print(course[:])
 # print(course[3:7])
