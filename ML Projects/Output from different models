@@ -1,5 +1,7 @@
 Model Outputs:
 
+output of Dragon Real Estate.ipynb ::
+
 1. Decision Tree:
     Mean:  4.444715773221709
     Standard Devaiation:  1.188656440818177
@@ -11,3 +13,20 @@ Model Outputs:
 3. Random Forest Regressor
     Mean:  3.3222252303734714
     Standard Devaiation:  0.6948271649976788
+
+
+output of DragonRealEstate.py (In this you add 1 more column, RmLstat = RM / LSTAT, which had great correlation with MEDV) ::
+
+1. Decision Tree:
+    Mean:  4.3439312538500925
+    Standard Devaiation:  0.7324809451412999
+
+2. Linear Regression:
+    Mean:  4.393552239620652
+    Standard Devaiation:  0.9698599391462815
+    
+3. Random Forest Regressor
+    Mean:  3.3815581299636057
+    Standard Devaiation:  0.6358691844346822
+
+
